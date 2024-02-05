@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    color:#fff;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-conteudo{
+    background-color: black;
+    padding: 20px;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+  
+.login-formulario button {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.esquecer-senha {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.esquecer-senha-link{
+    text-decoration: none;
+    color:#fff;
+}
